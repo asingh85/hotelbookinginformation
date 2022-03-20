@@ -25,7 +25,7 @@ management:
 
 #default project info followed by actual injected pom-specified values.
 project:
-  name: spring-boot-rest-example
+  name: hotelbookinginformation
   version: 0.1
   description: boot-example default description
 info:

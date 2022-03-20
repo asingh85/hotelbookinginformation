@@ -17,7 +17,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
 @EnableSwagger2
-@ComponentScan("com.khoubyari.example.api.rest")
+@ComponentScan("com.amansingh.example.api.rest")
 public class SwaggerConfig {
 
 
