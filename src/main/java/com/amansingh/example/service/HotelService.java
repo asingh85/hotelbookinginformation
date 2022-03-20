@@ -52,7 +52,7 @@ public class HotelService {
         Page pageOfHotels = hotelRepository.findAll(new PageRequest(page, size));
         // example of adding to the /metrics
         if (size > 50) {
-            counterService.increment("Khoubyari.HotelService.getAll.largePayload");
+            counterService.increment("amansingh.HotelService.getAll.largePayload");
         }
         return pageOfHotels;
     }
