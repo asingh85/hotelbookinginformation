@@ -16,7 +16,7 @@
 	</parent>
 
 	<properties>
-		<start-class>com.khoubyari.example.Application</start-class>
+		<start-class>com.amansingh.example.Application</start-class>
 	</properties>
 
 	<dependencies>
@@ -27,6 +27,11 @@
 		</dependency>
 
 		<!-- web development, including Tomcat and spring-webmvc -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-hateoas</artifactId>
+			<version>2.1.4.RELEASE</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>

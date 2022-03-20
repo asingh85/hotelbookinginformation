@@ -1,12 +1,12 @@
-package com.khoubyari.example.api.rest;
+package com.amansingh.example.api.rest;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 
-import com.khoubyari.example.domain.Hotel;
-import com.khoubyari.example.exception.DataFormatException;
-import com.khoubyari.example.service.HotelService;
+import com.amansingh.example.domain.Hotel;
+import com.amansingh.example.exception.DataFormatException;
+import com.amansingh.example.service.HotelService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

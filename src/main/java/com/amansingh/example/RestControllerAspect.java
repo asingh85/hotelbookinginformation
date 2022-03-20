@@ -1,4 +1,4 @@
-package com.khoubyari.example;
+package com.amansingh.example;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
